@@ -20,7 +20,7 @@
 
         <a-assets>
             <img src="assets/Bandas.png" id="bandas" />
-            <!-- <a-asset-item src="assets/bowser.glb" id="bowser"></a-asset-item> -->
+            <a-asset-item src="assets/bowser.glb" id="bowser"></a-asset-item>
         </a-assets>
         <a-marker type="barcode" value="0">
             
@@ -33,20 +33,23 @@
         </a-marker>
 
         <a-marker type="barcode" value="1">
-             <a-image
+
+            <a-entity
+                position= "0 0 0"
+                glft-model="#bowser"
+                scale= "0.15 0.15 0.15"
+            ></a-entity>
+
+             <!-- <a-image
                 position= "0 0 0"
                 rotation = "90 180 0"
                 scale= "4"
                 src= "#bandas"
-            > </a-image>
+            > </a-image> -->
         </a-marker>
            
 
-            <!-- <a-entity
-                position= "0 0 0"
-                glft-model="#bowser"
-                scale= "0.15 0.15 0.15"
-            ></a-entity> -->
+            
            
         
 
